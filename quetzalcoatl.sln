@@ -1,9 +1,51 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quetzalcoatl.Api", "quetzalcoatl.api\Quetzalcoatl.Api.csproj", "{C4805D6F-9CE1-485C-9F5C-41D12622E704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quetzalcoatl.Domain", "quetzalcoatl.domain\Quetzalcoatl.Domain.csproj", "{0B556FAE-E7B7-4C71-A621-55398A4A77EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quetzalcoatl.DataAccess", "Quetzalcoatl.DataAccess\Quetzalcoatl.DataAccess.csproj", "{96377FA5-1BE9-495B-835B-325F8C0B9D7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quetzalcoatl.Core", "Quetzalcoatl.Core\Quetzalcoatl.Core.csproj", "{EE2E78F3-3A91-41CF-9D5D-9C524B351E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quetzalcoatl.Infrastructure", "Quetzalcoatl.Interface\Quetzalcoatl.Infrastructure.csproj", "{8D9F501F-E246-4A8B-B127-909C70347616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quetzalcoatl.BusinessLogic", "Quetzalcoatl.BusinessLogic\Quetzalcoatl.BusinessLogic.csproj", "{E7B89C0D-2948-48FF-88D5-78F5E4BCF3FD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4805D6F-9CE1-485C-9F5C-41D12622E704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4805D6F-9CE1-485C-9F5C-41D12622E704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4805D6F-9CE1-485C-9F5C-41D12622E704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4805D6F-9CE1-485C-9F5C-41D12622E704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B556FAE-E7B7-4C71-A621-55398A4A77EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B556FAE-E7B7-4C71-A621-55398A4A77EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B556FAE-E7B7-4C71-A621-55398A4A77EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B556FAE-E7B7-4C71-A621-55398A4A77EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96377FA5-1BE9-495B-835B-325F8C0B9D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96377FA5-1BE9-495B-835B-325F8C0B9D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96377FA5-1BE9-495B-835B-325F8C0B9D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96377FA5-1BE9-495B-835B-325F8C0B9D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2E78F3-3A91-41CF-9D5D-9C524B351E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2E78F3-3A91-41CF-9D5D-9C524B351E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2E78F3-3A91-41CF-9D5D-9C524B351E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2E78F3-3A91-41CF-9D5D-9C524B351E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9F501F-E246-4A8B-B127-909C70347616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9F501F-E246-4A8B-B127-909C70347616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9F501F-E246-4A8B-B127-909C70347616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9F501F-E246-4A8B-B127-909C70347616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B89C0D-2948-48FF-88D5-78F5E4BCF3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B89C0D-2948-48FF-88D5-78F5E4BCF3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B89C0D-2948-48FF-88D5-78F5E4BCF3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B89C0D-2948-48FF-88D5-78F5E4BCF3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
